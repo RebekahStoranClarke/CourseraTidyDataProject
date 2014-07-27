@@ -1,5 +1,5 @@
 
-### Coursera Tidy Data Course Project
+# Coursera Tidy Data Course Project
 
 * The Samsung data should be in a directory as such: UCI HAR Dataset/...
 
