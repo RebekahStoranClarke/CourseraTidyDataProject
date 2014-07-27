@@ -10,14 +10,14 @@
 		* LAYING
 
 * "Subject" 
-  Subject ID, 
+  * Subject ID, 
   * Identifies the subject who performed the activity. Its range is from 1 to 30. 
 
 * "Feature"
 	* Indicates the feature being measured
 
 * "Mean" 
-  vThe average of each feature for each activity and each subject
+	* The average of each feature for each activity and each subject
 
 ### DATA 1
 
