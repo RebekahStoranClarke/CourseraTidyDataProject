@@ -1,5 +1,7 @@
 
-- Used only the explicit mean() and stddev(), not 
+#### Coursera Tidy Data Course Project
+
+* The Samsung data should be in a directory as such: UCI HAR Dataset/...
 
 ### STEPS TAKEN
 
