@@ -1,9 +1,9 @@
 
-#### Coursera Tidy Data Course Project
+### Coursera Tidy Data Course Project
 
 * The Samsung data should be in a directory as such: UCI HAR Dataset/...
 
-### STEPS TAKEN
+## STEPS TAKEN
 
 * Install Necessary Packages - plyr, reshape
 *  Load all data using read.table
@@ -27,7 +27,7 @@
 * Output resulting data to files
 
 
-### TIDY DATA
+## TIDY DATA
 
 * Each variable is in a separate column 
 * Each observation is in one row
