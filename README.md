@@ -1,43 +1,33 @@
-<<<<<<< HEAD
 
-- Used only the explicit mean() and stddev(), not meanFreq()
+- Used only the explicit mean() and stddev(), not 
 
-#######################################################################################################################################  
-	STEPS TAKEN
-####################################################################################################################################### 
+### STEPS TAKEN
 
-# Install Necessary Packages - plyr, reshape
-# Load all data using read.table
-	- When loading the train & test data sets set col.names equal to the data from features.txt, this ensures columns use descriptive variable names
-# Merge the training and the test sets using row bind
+* Install Necessary Packages - plyr, reshape
+*  Load all data using read.table
+	* When loading the train & test data sets set col.names equal to the data from features.txt, this ensures columns use descriptive variable names
+* Merge the training and the test sets using row bind
 # Clean up data column names to make them more readable
-	- Replace full stops with spaces
-	- Remove trailing spaces
-# Extract only the measurements on the mean and standard deviation for each measurement
-	- Use regular expressions to find any column names containing either "mean()" or "std()", build a vector of matching column indexes
-	- Subset the data based on this vector
-# Merge the training and test label data using row bind
-# Merge the training and test subject data using row bind
-# Replace the label data with descriptive activity names
-	- For each activity:
-		- Use sapply to replace the activity number with the activity description in the label data
-# Add both the activity and subject columns to the main data using column bind
-# Create a second, independent tidy data set with the average of each variable for each activity and each subject
-	- Using melt(): Melt the data to get a column indicating the variable type
-	- Using ddply: Reshape this data to get a mean for all unique combinations of Activity, Subject and Variable 
-# Output resulting data to files
+	* Replace full stops with spaces
+	* Remove trailing spaces
+* Extract only the measurements on the mean and standard deviation for each measurement
+	* Use regular expressions to find any column names containing either "mean()" or "std()", build a vector of matching column indexes
+	* Subset the data based on this vector
+* Merge the training and test label data using row bind
+* Merge the training and test subject data using row bind
+* Replace the label data with descriptive activity names
+	* For each activity:
+		* Use sapply to replace the activity number with the activity description in the label data
+* Add both the activity and subject columns to the main data using column bind
+* Create a second, independent tidy data set with the average of each variable for each activity and each subject
+	* Using melt(): Melt the data to get a column indicating the variable type
+	* Using ddply: Reshape this data to get a mean for all unique combinations of Activity, Subject and Variable 
+* Output resulting data to files
 
-#######################################################################################################################################
-	TIDY DATA
-#######################################################################################################################################
 
-- Each variable is in a separate column 
-- Each observation is in one row
-- The column names have been cleaned up to be plain English and descriptive
-- All variables are meaningful, the full descriptive activity names are included instead of activity numbers
-=======
-CourseraTidyDataProject
-=======================
+### TIDY DATA
 
-Repository for the Coursera Getting and Cleaning Data Course Project
->>>>>>> 6a187760d823784a2bc890a98754c09c0e7e3584
+* Each variable is in a separate column 
+* Each observation is in one row
+* The column names have been cleaned up to be plain English and descriptive
+* All variables are meaningful, the full descriptive activity names are included instead of activity numbers
