@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 - Used only the explicit mean() and stddev(), not meanFreq()
 
@@ -34,3 +35,9 @@
 - Each observation is in one row
 - The column names have been cleaned up to be plain English and descriptive
 - All variables are meaningful, the full descriptive activity names are included instead of activity numbers
+=======
+CourseraTidyDataProject
+=======================
+
+Repository for the Coursera Getting and Cleaning Data Course Project
+>>>>>>> 6a187760d823784a2bc890a98754c09c0e7e3584
