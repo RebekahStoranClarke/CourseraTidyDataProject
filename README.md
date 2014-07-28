@@ -2,6 +2,10 @@
 # Coursera Tidy Data Course Project
 
 * The Samsung data should be in a directory as such: UCI HAR Dataset/...
+* Why does my data have 11,880 Rows instead of 181?
+	* Because I have produced narrow instead of wide data, which according to the following course discussion is acceptable
+	  https://class.coursera.org/getdata-005/forum/thread?thread_id=199
+	* EAch row represents a unique combination of Subject, Activity and Feature (30 Subjects x 6 Activities x 66 Features = 11,880 Rows)
 
 ## STEPS TAKEN
 
